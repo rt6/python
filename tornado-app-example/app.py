@@ -4,9 +4,7 @@ import tornado.web
 
 class HomeHandler(tornado.web.RequestHandler):
     def get(self):
-        storm_chasers = ["TIV 1", "TIV 2"]
-        self.render("home.html", 
-                    storm_chasers=storm_chasers)                   
+        self.render("home.html")
 
 class CarsHandler(tornado.web.RequestHandler):
     def get(self):
