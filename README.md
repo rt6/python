@@ -67,7 +67,7 @@ For more details: https://virtualenv.pypa.io/en/stable/userguide/#activate-scrip
 
 To use virtualenv
 ```sh
-#activate the virtuanl environment
+# activate the virtual environment
 source bin/activate
 
 # list packages 
