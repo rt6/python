@@ -53,3 +53,27 @@ alembic upgrade heads
 alembic current
 alembic heads
 ```
+
+
+## VIRTUALENV
+Package dependency and package version management.
+
+On windows, open command prompt:
+```sh
+# create a new virtual environment
+virutalenv ENV
+```
+For more details: https://virtualenv.pypa.io/en/stable/userguide/#activate-script
+
+To use virtualenv
+```sh
+#activate the virtuanl environment
+source bin/activate
+
+# list packages 
+pip freeze --local 
+pip list --local
+
+# deactivate the virtual environment
+deactivate
+```
